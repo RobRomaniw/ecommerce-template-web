@@ -1721,12 +1721,20 @@
   dependencies:
     "@types/node" "*"
 
-"@urql/core@^2.1.0":
+"@urql/core@>=2.1.0", "@urql/core@^2.1.0":
   version "2.1.2"
   resolved "https://argodigital.jfrog.io/artifactory/api/npm/npm/@urql/core/-/core-2.1.2.tgz#aa27ff52bac0c0c263345f17d0df0f54480716d3"
   integrity sha1-qif/UrrAwMJjNF8X0N8PVEgHFtM=
   dependencies:
     "@graphql-typed-document-node/core" "^3.1.0"
+    wonka "^4.0.14"
+
+"@urql/exchange-graphcache@^4.1.1":
+  version "4.1.1"
+  resolved "https://argodigital.jfrog.io/artifactory/api/npm/npm/@urql/exchange-graphcache/-/exchange-graphcache-4.1.1.tgz#0b791a9bf8aa40c6e5477ac6955c7777f5a08ec9"
+  integrity sha1-C3kam/iqQMblR3rGlVx3d/Wgjsk=
+  dependencies:
+    "@urql/core" ">=2.1.0"
     wonka "^4.0.14"
 
 abort-controller@3.0.0:
